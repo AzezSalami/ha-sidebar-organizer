@@ -1,0 +1,38 @@
+# Sidebar Organizer config
+# Copy this file to your Home Assistant config/www/ folder (create www if missing).
+# Each entry under custom_groups becomes a collapsible drop-down group in the sidebar.
+# Values are panel IDs: the part of the URL after your HA address
+# (e.g. http://homeassistant.local:8123/energy -> "energy").
+# Replace the examples with your own panels and dashboards.
+
+header_title: 'Home'
+hide_header_toggle: false
+
+custom_groups:
+  dashboards:
+    - lovelace            # Overview
+    - energy
+    - map
+  activity:
+    - logbook
+    - history
+    - todo
+  media:
+    - media-browser
+
+bottom_groups:
+  admin:
+    - hacs
+    - developer-tools
+    - config
+
+bottom_items:
+  - config/lovelace/resources
+
+# Groups listed here start collapsed
+default_collapsed:
+  - activity
+  - admin
+
+color_config:
+  border_radius: 8

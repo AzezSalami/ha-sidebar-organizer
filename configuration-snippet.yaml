@@ -1,0 +1,8 @@
+# Add this to Home Assistant's configuration.yaml, then restart HA.
+# Replace the hacstag number with the one shown under
+# Settings > Dashboards > (⋮) Resources for "sidebar-organizer".
+# Update the hacstag here whenever HACS updates the plugin.
+
+frontend:
+  extra_module_url:
+    - /hacsfiles/sidebar-organizer/sidebar-organizer.js?hacstag=REPLACE_ME

@@ -1,0 +1,13 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Sidebar Groups",
+        "description": "Adds collapsible groups to the sidebar. After setup, reload the page, then right-click (or long-press) any sidebar item and choose Edit groups."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Sidebar Groups is already set up."
+    }
+  }
+}

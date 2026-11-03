@@ -1,0 +1,14 @@
+{
+  "domain": "sidebar_groups",
+  "name": "Sidebar Groups",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["frontend", "http"],
+  "documentation": "https://github.com/OWNER/ha-sidebar-groups",
+  "integration_type": "service",
+  "iot_class": "calculated",
+  "issue_tracker": "https://github.com/OWNER/ha-sidebar-groups/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "1.0.0"
+}
